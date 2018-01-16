@@ -1,0 +1,88 @@
+README : 
+
+Tian Qi Jiang 101020433
+Marcos Gil 100802410
+
+Comp2404B; C Laurendeau
+
+Purpose:
+Implement behaviour two behaviour classes for products with inheritance
+hierarchy and polymorphic functions. Use STL container to hold customers.
+
+
+Files: 
+Customer.cc
+Customer.h
+InvControl.cc
+InvControl.h
+Order.cc
+Order.h
+OrderArray.cc
+OrderArray.h
+OrderServer.cc
+OrderServer.h
+ProdList.cc
+ProdList.h
+Product.cc
+Product.h
+PurchArray.cc
+PurchArray.h
+Purchase.cc
+Purchase.h
+Store.cc
+Store.h
+UI.cc
+UI.h
+defs.h
+main.cc
+Bakery.cc
+Bakery.h
+CoffeeTea.cc
+CoffeeTea.h
+Dairy.cc
+Dairy.h
+ExpirationBehaviour.cc
+ExpirationBehaviour.h
+MiscGoods.cc
+MiscGoods.h
+Meat.cc
+Meat.h
+NonPerishable.cc
+NonPerishable.h
+NonTaxable.cc
+NonTaxable.h
+Perishable.cc
+Perishable.h
+Taxable.cc
+Taxable.h
+TaxationBehaviour.cc
+TaxationBehaviour.h
+Makefile
+
+
+Includes: 
+
+#include <cstdlib>
+#include <cmath>
+#include <iostream>
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <sstream>
+#include <list>
+
+Sources: 
+
+Lectures and slides from COMP2404 by Christine Laurendeau;
+"C++ How to Program", Deitel and Deitel, 2013
+http://stackoverflow.com/questions/6897914/c-warning-function-returns-address-of-local-variable
+http://www.cplusplus.com/reference/cstdlib/malloc/
+
+Compilation: 
+make
+
+Clean:
+make clean
+
+Launch : 
+./cushop -c
